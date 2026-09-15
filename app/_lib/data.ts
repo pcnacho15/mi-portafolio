@@ -103,27 +103,37 @@ export const PROJECTS: Project[] = [
     title: "Plataforma de gestión financiera",
     description:
       "Aplicación full stack con Next.js, con autenticación, panel de administración y reportes en tiempo real. Integración de Apis con Binance para ver precio en tiempo real del USDT",
-    tags: ["Next.js", "Node.js", "PostgreSQL", "Docker"],
+    tags: ["Next.js", "Node.js", "PostgreSQL", "Docker", "Binance API"],
     gradient: "from-violet-500/20 via-fuchsia-500/10 to-cyan-400/20",
     href: "https://nacho-finance.vercel.app/",
+    repo: "https://github.com/pcnacho15/nacho_finance",
   },
   {
     title:
       "E-commerce con integración de pasarela de pagos con Wompi, Webhook y notificaciones por correo electrónico",
     description:
       "Backend en Node.js (Server sides) con autenticación, panel de administración y reportes en tiempo real. Integración de Apis con Wompi para pagos en línea.",
-    tags: ["Next.js", "Node.js", "PostgreSQL", "Docker", "Jenkins"],
+    tags: [
+      "Next.js",
+      "Node.js",
+      "PostgreSQL",
+      "Docker",
+      "Jenkins",
+      "Wompi API",
+    ],
     gradient: "from-cyan-400/20 via-sky-500/10 to-violet-500/20",
     href: "https://www.topwigs.co/",
+    repo: "https://github.com/pcnacho15/topwigs",
   },
   {
     title:
       "E-commerce de productos tecnológicos con integración de pasarela de pagos con Epayco, Webhooks, Autenticación y panel de administración",
     description:
       "Aplicación full stack con Next.js, con autenticación, panel de administración y reportes en tiempo real. Integración de Apis con Epayco para pagos en línea.",
-    tags: ["Next.js", "PostgreSQL", "Node.js", "Docker"],
+    tags: ["Next.js", "PostgreSQL", "Node.js", "Docker", "Epayco API"],
     gradient: "from-emerald-400/20 via-teal-500/10 to-violet-500/20",
     href: "https://celuantioquia-project.vercel.app/",
+    repo: "https://github.com/pcnacho15/celuantioquia-project",
   },
 ];
 
@@ -137,28 +147,28 @@ export type ExperienceItem = {
 
 export const EXPERIENCE: ExperienceItem[] = [
   {
-    role: "Desarrollador Full Stack",
-    place: "Proyecto / Empresa",
+    role: "Analista de bases de datos | Desarrollador de Software",
+    place: "Savia Salud EPS",
     period: "Actualidad",
     description:
-      "Desarrollo de aplicaciones con Next.js y Spring Boot, diseño de esquemas en MySQL/PostgreSQL/SQL Server y co-administración de servidores Linux en producción.",
-    stack: ["Next.js", "Spring Boot", "PostgreSQL", "Linux"],
+      "Desarrollo y mantenimiento de sistemas de información para la gestión de pacientes y servicios de salud, incluyendo integración con sistemas externos y optimización de procesos internos.",
+    stack: ["Java", "Spring Boot", "MySQL", "Linux", "Wildfly"],
   },
   {
     role: "Ingeniero de Automatización & CI/CD",
-    place: "Proyecto / Empresa",
+    place: "Savia Salud EPS",
     period: "Periodo anterior",
     description:
       "Implementación de pipelines con Jenkins y Docker, y suites de pruebas automatizadas con Selenium para reducir regresiones antes de cada release.",
     stack: ["Jenkins", "Docker", "Selenium"],
   },
   {
-    role: "Desarrollador Backend",
-    place: "Proyecto / Empresa",
+    role: "Analista de desarrollo de software",
+    place: "Savia Salud EPS",
     period: "Periodo inicial",
     description:
-      "Construcción de APIs en Node.js y trabajo en equipo con diseñadores y QA para entregar funcionalidades de extremo a extremo.",
-    stack: ["Node.js", "MySQL", "Trabajo en equipo"],
+      "Construcción de APIs en Java, levantamiento de historias de usuarios y trabajo en equipo con diseñadores y QA para entregar funcionalidades de extremo a extremo.",
+    stack: ["Java", "Spring Boot", "MySQL", "Trabajo en equipo"],
   },
 ];
 
